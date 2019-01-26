@@ -1,0 +1,70 @@
+<div class="modify-test-wrapper modify-container">
+    <h1>MODIFY TEST</h1>
+    <div class="dropdown-primary width-max">
+        <select class="dropdown-button" id="test" required>
+            <option value="">Select Test</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="java">JAVA</option>
+        </select>
+    </div>
+    <form href="#" id="modifyForm" class="bg-container modify-form" method="POST" action="#" autocomplete="off" novalidate>
+        <div class="form-header">
+            <p class="form-header-content">MODIFY QUESTION</p>
+            <div class="pagination pagination-desktop float-right is-visible-desktop">
+                <a value="1" id="js-1">1</a>
+                <a value="2" id="js-2">2</a>
+                <a value="3" id="js-3">3</a>
+                <a value="4" id="js-4">4</a>
+                <a value="5" id="js-5">5</a>
+            </div>
+        </div>
+        <div class="modify-input-row">
+            <label class="is-label-hidden" for="question">questions</label>
+            <input type="text" class="modify-input" name="question" placeholder="Question" id="question" />
+            <button type="button" id="ques" class="display-border">
+                <img src="app/assests/images/edit-question-icon.png" class="edit-icon" alt="editQuestionIcon" />
+            </button>
+        </div>
+        <div class="modify-input-row">
+            <label class="is-label-hidden" for="correctAnswer">correctAnswer</label>
+            <input type="text" class="modify-input" name="correctAnswer" placeholder="Correct Answer" id="correctAnswer" />
+            <button type="button" id="correct" class="display-border">
+                <img src="app/assests/images/edit-question-icon.png" class="edit-icon" alt="editQuestionIcon" />
+            </button>
+        </div>
+        <div class="modify-input-row">
+            <label class="is-label-hidden" for="wrongAnswer">wrongAnswer</label>
+            <input type="text" class="modify-input" name="wrongAnswer" placeholder="Wrong Answer" id="wrongAnswer" />
+            <button type="button" id="wrong" class="display-border">
+                <img src="app/assests/images/edit-question-icon.png" class="edit-icon" alt="editQuestionIcon" />
+            </button>
+        </div>
+        <div class="modify-input-row">
+            <label class="is-label-hidden" for="wrongAnswer1">wrongAnswer3</label>
+            <input type="text" class="modify-input" name="fourthwrongAnswer" placeholder="Wrong Answer" id="wrongAnswer1" />
+            <button type="button" id="wrong1" class="display-border">
+                <img src="app/assests/images/edit-question-icon.png" class="edit-icon" alt="editQuestionIcon" />
+            </button>
+        </div>
+        <div class="modify-input-row">
+            <label class="is-label-hidden" for="wrongAnswer2">wrongAnswer4</label>
+            <input type="text" class="modify-input" name="fifthwrongAnswer" placeholder="Wrong Answer" id="wrongAnswer2" />
+            <button type="button" id="wrong2" class="display-border">
+                <img src="app/assests/images/edit-question-icon.png" class="edit-icon" alt="editQuestionIcon" />
+            </button>
+        </div>
+        <div class="modify-input-row">
+            <label class="is-label-hidden" for="cmts">cmts</label>
+            <input type="text" class="modify-input" name="cmts" placeholder="Comments" id="cmts" />
+            <img src="app/assests/images/edit-question-icon.png" class="edit-icon" alt="editQuestionIcon" />
+        </div>
+
+        <p class="color-white description-link">Description or link to the source of this question (Public) </p>
+        <div class="modify-last-row">
+            <input type="submit" id="saveDetail" value="Save Detail" class="button button-primary save-detail width-max" />
+            <button type="button" id="addNew" class="button button-primary left-add">Add New</button>
+            <button type="button" id="delete" class="button button-primary right-del float-right">Delete</button>
+        </div>
+    </form>
+</div>

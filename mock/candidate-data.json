@@ -1,0 +1,62 @@
+[
+	{
+	  "imgurl": "app/assests/images/MandyDahlman.png",
+	  "candidateName": "Mandy Dahlman",
+	  "oracleId": 202211,
+		"email": "mdahlman@sapient.com",
+		"stage":"associate",
+	  "Test": "JAVA",
+	  "Date": "2014-02-09",
+	  "interviewer": "",
+	  "Reminder": "Send",
+	  "score": 3
+	},
+	{
+	  "imgurl": "app/assests/images/login-profile-pic.png",
+	  "candidateName": "Mitsuko Kennet",
+	  "oracleId": 213422,
+		"email": "mkennet@sapient.com",
+		"stage":"manager",
+	  "Test": "HTML",
+	  "Date": "2014-07-09",
+	  "interviewer": "Assign",
+	  "Reminder": "Send",
+	  "score": 4
+	},
+	{
+	  "imgurl": "app/assests/images/MandyDahlman.png",
+	  "candidateName": "Mandy Dahlman",
+	  "oracleId": 202211,
+		"email": "mdahlman@sapient.com",
+		"stage":"projectlead",
+	  "Test": "CSS",
+	  "Date": "2014-31-10",
+	  "interviewer": "Assign",
+	  "Reminder": "",
+	  "score": 2
+	},
+	{ 
+	  "imgurl": "app/assests/images/RossieColquitt.png",
+	  "candidateName": "Rossie Colquitt",
+	  "oracleId": 231232,
+		"email": "rcolquitt@sapient.com",
+		"stage":"srassociate",
+	  "Test": "HTML",
+	  "Date": "2014-02-09",
+	  "interviewer": "Assign",
+	  "Reminder": "Send",
+	  "score": 3
+	},
+	{ 
+	  "imgurl": "app/assests/images/RossieColquitt.png",
+	  "candidateName": "Rossie Colquitt",
+	  "oracleId": 231232,
+		"email": "rcolquitt@sapient.com",
+		"stage":"manager",
+	  "Test": "Java",
+	  "Date": "2014-02-09",
+	  "interviewer": "",
+	  "Reminder": "Send",
+	  "score": 2
+	}
+  ]

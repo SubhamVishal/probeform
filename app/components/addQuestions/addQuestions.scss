@@ -1,0 +1,46 @@
+@import 'app/styles/partials/_utils';
+.add-question {
+    .input-detail {
+      background-color: $color_emperor;
+      margin: 7%;
+      width: 75%;
+    }
+    .content {
+      margin: 0 1rem;
+    }
+    .wrapper-heading {
+      margin-bottom: 1rem;
+      color: $color_mercury;
+      background-color: $color_shark;
+      padding: 0.6rem 1.2rem;
+    }
+    .question-input {
+      width: 85%;
+      border: 1px solid $color_cape_cod;
+      margin: 0.5rem 1rem;
+    }
+    .comment-input {
+      width: 85%;
+      padding: 1.25rem 0.3rem;
+    }
+    .button-custom {
+      width: 44%;
+      margin: 5% 2.5%;
+    }
+    .cross-button {
+      height: 1.25rem;
+      float: right;
+    }
+  }
+  
+  @media screen and (min-width: 640px) {
+    .add-question {
+      .button-custom {
+        width: 30%;
+        margin: 2.5%;
+      }
+      .comment-input {
+        padding: 0.3rem 0.3rem 1.5rem;
+      }
+    }
+  }

@@ -1,0 +1,58 @@
+@import 'app/styles/partials/_utils';
+.assign-interviewer {
+    margin-top: 7rem;
+    .button {
+      width: 45%;
+      margin: 2.5%;
+    }
+    option {
+      background-color: $color_option;
+    }
+    .dropdown-button {
+        background: transparent;
+        color: $color_mountain_mist;
+        border-bottom: 1px solid $color_mountain_mist;
+    }
+    .dropdown-primary {
+      margin: 1rem;
+      width: 90%;
+      display: block;
+    }
+    input[type=text] {
+      width: 90%;
+    }
+    .dropdown-content {
+      width: 60%;
+    }
+    .pop-up-heading {
+        color: $color_mercury;
+        background-color: $color_shark;
+        padding: 0.8rem;
+    }
+    .cross {
+      height: 1.2rem;
+    }
+  }
+  
+  @media screen and (min-width: 640px) {
+    .assign-interviewer {
+      max-width: 50rem;
+      margin-top: 9.5rem;
+      margin-left: 10%;
+      .button {
+        width: 38%;
+        margin: 5%;
+      }
+      .dropdown-content {
+        min-width: 10rem;
+      }
+      input[type=text] {
+        width: 40%;
+      }
+      .dropdown-primary {
+        margin: 1rem;
+        width: 40%;
+        min-width: 10rem;
+      }
+    }
+  }

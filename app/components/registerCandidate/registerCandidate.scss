@@ -1,0 +1,41 @@
+@import 'app/styles/partials/_utils';
+.register-candidate {
+    .dropdown-primary, .button {
+      width: 45%;
+      margin: 2%;
+    }
+    .text-input {
+      width: 90%;
+    }
+    h1 {
+      margin-bottom: 3rem;
+    }
+    .sub-heading {
+      background-color: $color_shark;
+      padding: 0.6rem 1.2rem;
+    }
+  }
+  
+  .registerCandidate-style {
+    color: $color_guardsman_red;
+    margin-left: 5%;
+  }
+  
+  .register-candidate {
+    margin: auto 2%;
+  }
+  
+  @media screen and (min-width: 640px) {
+    .register-candidate {
+      max-width: 50rem;
+      .dropdown-primary, .button {
+        min-width: 9rem;
+        width: 20%;
+        margin: 1rem;
+      }
+      .text-input {
+        min-width: 20rem;
+        width: 45%;
+      }
+    }
+  }

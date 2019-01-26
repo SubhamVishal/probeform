@@ -1,0 +1,117 @@
+{
+    "html": [
+        {
+            "question": "What does HTML stand for?",
+            "option1": "Hyper Text Markup Language",
+            "option2": "Home Tool Markup Language",
+            "option3": "Hyperlinks and Text Markup Language",
+            "option4": "Hyper Text Makeup Language"
+        },
+        {
+            "question": "Who is making the Web standards?",
+            "option1": "The World Wide Web Consortium",
+            "option2": "Google",
+            "option3": "Mozilla",
+            "option4": "Microsoft"
+        },
+        {
+            "question": "Choose the correct HTML element for the largest heading:",
+            "option1": "h1",
+            "option2": "h2",
+            "option3": "h3",
+            "option4": "h4"
+        },
+        {
+            "question": "Which character is used to indicate an end tag",
+            "option1": "/",
+            "option2": "*",
+            "option3": "<",
+            "option4": ">"
+        },
+        {
+            
+            "question": "How can you make a numbered list?",
+            "option1": "ol",
+            "option2": "list",
+            "option3": "ul",
+            "option4": "dl"
+        }
+
+    ],  "css": [
+        {
+            "question": "What does HTML stand for?",
+            "option1": "Hyper Text Markup Language",
+            "option2": "Home Tool Markup Language",
+            "option3": "Hyperlinks and Text Markup Language",
+            "option4": "Hyper Text Makeup Language"
+        },
+        {
+            "question": "Who is making the Web standards?",
+            "option1": "The World Wide Web Consortium",
+            "option2": "Google",
+            "option3": "Mozilla",
+            "option4": "Microsoft"
+        },
+        {
+            "question": "Choose the correct HTML element for the largest heading:",
+            "option1": "h1",
+            "option2": "h2",
+            "option3": "h3",
+            "option4": "h4"
+        },
+        {
+            "question": "Which character is used to indicate an end tag",
+            "option1": "/",
+            "option2": "*",
+            "option3": "<",
+            "option4": ">"
+        },
+        {
+            "question": "How can you make a numbered list?",
+            "option1": "ol",
+            "option2": "list",
+            "option3": "ul",
+            "option4": "dl"
+        }
+
+     ] ,
+    "java": [
+        {
+            "question": "What does HTML stand for?",
+            "option1": "Hyper Text Markup Language",
+            "option2": "Home Tool Markup Language",
+            "option3": "Hyperlinks and Text Markup Language",
+            "option4": "Hyper Text Makeup Language"
+        },
+        {
+            "question": "Who is making the Web standards?",
+            "option1": "The World Wide Web Consortium",
+            "option2": "Google",
+            "option3": "Mozilla",
+            "option4": "Microsoft"
+        },
+        {
+            "question": "Choose the correct HTML element for the largest heading:",
+            "option1": "h1",
+            "option2": "h2",
+            "option3": "h3",
+            "option4": "h4"
+        },
+        {
+            "question": "Which character is used to indicate an end tag",
+            "option1": "/",
+            "option2": "*",
+            "option3": "<",
+            "option4": ">"
+        },
+        {
+            "question": "How can you make a numbered list?",
+            "option1": "ol",
+            "option2": "list",
+            "option3": "ul",
+            "option4": "dl"
+        }
+
+    ]
+}
+

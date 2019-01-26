@@ -1,0 +1,42 @@
+<div class="candidate-wrapper">
+    <h1 class="candidate-wrapper">CANDIDATE LISTING</h1>
+    <div class="candidate-desktop-container candidate-desktop-view width-max">
+        <table class="candidate-table">
+            <thead class="candidate-table-head color-grey">
+                <tr>
+                    <td>NAME</td>
+                    <td>TEST</td>
+                    <td>DATE</td>
+                    <td>INTERVIEWER</td>
+                    <td>REMINDER EMAIL</td>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                    <template id="to-be-appended">
+                            <tr class="candidate-row">
+                                <td class="col-candidate-details">
+                                    <img src="app/assests/images/profile-pic.jpg" class="profile-pic float-left js-image-show" alt="profile-pic">
+                                    <div class="candidate-details-top float-left">
+                                        <p class="color-white js-p-name"></p>
+                                        <p class="color-grey js-p-oid"></p>
+                                        <p class="color-grey js-p-email"></p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p class="color-white js-p-test"></p>
+                                </td>
+                                <td>
+                                    <p class="color-white js-p-date"></p>
+                                </td>
+                                <td>
+                                    <input type="button" value="Assign" class="button button-secondary js-assign">
+                                </td>
+                                <td>
+                                    <input type="button" name="send" class="button button-secondary js-reminder" value="Send" >
+                                </td>
+                            </tr>
+                        </template>                        
+            </tbody>
+        </table>
+    </div>
+</div>

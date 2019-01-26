@@ -1,0 +1,44 @@
+<div class="create-test">
+    <h1> CREATE TEST </h1>
+    <form class="bg-container" name="createTestForm" id="createTestform" method="POST" action="#" autocomplete="off" novalidate>
+        <p class="sub-heading color-white"> NEW TEST </p>
+
+        <div class="input-group">
+            <label for="createTestTestName" class="is-label-hidden">Test Name</label>
+            <input type="text" class="text-input" name="createTesttestName" id="createTestTestName" placeholder="Test Name" pattern="^[a-zA-Z0-9_]*$"
+                errorMsg="Only alphabets and numbers allowed" minlength="3" maxlength="20" required/>
+            <p id="createTesttestName" class="createTest-style"></p>
+        </div>
+
+        <div class="input-group mobile-short-name">
+            <label for="shortNameMobile" class="is-label-hidden">Short Name</label>
+            <input type="text" class="text-input" name="shortName" id="shortNameMobile" placeholder="Short Name (Use in spaces limited places)"
+            />
+        </div>
+
+        <div class="input-group desktop-short-name">
+            <label for="createTestShortNameDesktop" class="is-label-hidden">Short Name</label>
+            <input type="text" class="text-input" name="createTestshortName" id="createTestShortNameDesktop" placeholder="Short Name"
+                pattern="^[a-zA-Z0-9_]*$" errorMsg="Only alphabets and numbers allowed" minlength="3" maxlength="20" required/>
+            <span class="color-grey font-small">(Use in spaces limted places)</span>
+            <p id="createTestshortName" class="createTest-style"></p>
+        </div>
+
+        <div class="input-group desktop-description">
+            <label for="createTestDescription" class="is-label-hidden">Description</label>
+            <input type="text" class="text-input" name="createTestdescription" id="createTestDescription" placeholder="Description" data-novalidate="true"/>
+        </div>
+
+        <div class="dropdown-primary">
+            <select class="dropdown-primary dropdown-button" required>
+                <option value="">Select Test</option>
+                <option value="associate">HTML</option>
+                <option value="srassociate">JAVA</option>
+                <option value="manager">CSS</option>
+                <option value="projectlead">Javascript</option>
+            </select>
+        </div>
+        <button type="submit" id="submitTestButton" class="button button-primary">Save Detail</button>
+        <p id="createTestForm" class="createTest-style"></p>
+    </form>
+</div>

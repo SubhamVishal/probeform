@@ -1,0 +1,104 @@
+@import 'app/styles/partials/_utils';
+.candidate-wrapper {
+    p {
+      margin: 0;
+    }
+    .candidate-header {
+      background-color:$color_shark;
+      padding: 0.6rem 1.2rem;
+      margin: 0;
+    }
+    .candidate-content-padding {
+      padding: 0.3125rem;
+    }
+    .assign-link {
+      padding: 0.3125rem 0.9375rem;
+    }
+    .button-secondary {
+      padding-top: 0.375rem;
+      width: 34%;
+      margin: 1rem 0 2rem 0.625rem;
+      padding-bottom: 0.5rem;
+    }
+    .profile-pic {
+      height: 3.4375rem;
+      width: 3.4375rem;
+    }
+    .modify-pagination {
+      text-align: center;
+      padding: 2rem 0;
+    }
+    .candidate-row {
+      padding: 2rem 0 0 0.8rem;
+      width: 94%;
+      .drop-button {
+        height: 1.5625rem;
+        width: 1.5625rem;
+      }
+    }
+    .candidate-details-top {
+      margin-left: 0.625rem;
+    }
+    .candidate-details-bottom {
+      border-bottom: 1px solid $color_mercury;
+      border-width: thin;
+      margin-top: 2rem;
+      p {
+        padding: 0.375rem;
+      }
+    }
+    .candidate-desktop-view {
+      display: none;
+    }
+    .candidate-mobile-view {
+      display: block;
+    }
+  }
+  
+  @media only screen and (min-width: 640px) {
+    .candidate-wrapper {
+      .candidate-desktop-container {
+        overflow: auto;
+      }
+      .candidate-table {
+        border-collapse: collapse;
+        background: $color_log_cabin;
+        min-width: 60.9375rem;
+      }
+      .send-link {
+        padding: 0.5rem 2.185rem;
+      }
+      .candidate-row {
+        box-shadow: 0 24px 3px -26px $color_mercury;
+      }
+      .candidate-table-head {
+        background-color: $color_shark;
+        td {
+          padding: 1rem 4rem 1rem 2rem;
+        }
+      }
+      .candidate-mobile-view {
+        display: none;
+      }
+      .candidate-desktop-view {
+        display: block;
+      }
+      .button-secondary {
+        width: 75%;
+        margin: 2rem 0 2rem 0.625rem;
+      }
+      .candidate-row td {
+        padding: 2rem 3rem 2rem 2rem;
+      }
+      .profile-pic {
+        height: 3.4375rem;
+        width: 3.4375rem;
+      }
+      .candidate-wrapper {
+        padding-bottom: 5%;
+      }
+      .col-candidate-details {
+        min-width: 15.5rem;
+      }
+    }
+  }

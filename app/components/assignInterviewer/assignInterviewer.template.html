@@ -1,0 +1,19 @@
+<div class="assign-interviewer bg-container">
+    <p class="pop-up-heading">ASSIGN INTERVIEWER
+        <img id="cross" class="cross float-right" src="app/assests/images/cross-button.png" alt="close" />
+    </p>
+    <form method="POST" action="#" autocomplete="off">
+        <div class="input-group">
+            <label for="fullName" class="is-label-hidden">Candidate Name</label>
+            <input type="text" id="fullName" placeholder="Candidate Name" pattern="[a-zA-Z ]*$" minlength="8" maxlength="30" />
+        </div>
+        <select class="dropdown-primary dropdown-button" id="selectBody" required>
+            <option value="">Interviewer Name</option>
+            <template id="to-be-appended">
+                <option class="js-interviewer"></option>
+            </template>
+        </select>
+        <button id="assign" class="button button-primary">Assign</button>
+        <button id="cancel" class="button button-primary">Cancel</button>
+    </form>
+</div>

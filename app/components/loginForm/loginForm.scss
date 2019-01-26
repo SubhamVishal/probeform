@@ -1,0 +1,69 @@
+@import 'app/styles/partials/_utils';
+.login-details {
+    margin-top: 3rem;
+    .login-button {
+      width: 85%;
+      margin: 5%;
+      margin-left: 4%;
+      display: block;
+      text-align: center;
+    }
+    .profile-pic {
+      display: block;
+      margin: auto;
+      border-radius: 0.625rem;
+    }
+    .login-text-field, .login-password-field {
+      width: 90%;
+      margin-bottom: 5%;
+    }
+    .lost-password-link {
+      color: $color_red;
+      font-size: 0.75rem;
+      margin-right: 5%;
+      float: right;
+    }
+    .login-checkbox {
+      opacity: 1;
+      background-color: $color_cape_cod;
+      margin-left: 4%;
+    }
+    .styling-label {
+      color: $color_white;
+      font-size: 0.75rem;
+      margin-left: 10%;
+    }
+    .page-heading {
+      margin-left: 5%;
+    }
+    .login-form-style {
+      color: $color_guardsman_red;
+      ;
+      padding-left: 15px;
+    }
+  }
+  
+  @media screen and (min-width: 640px) {
+    .login-form {
+      width: 40%;
+      display: inline-block;
+      margin-right: 5%;
+    }
+    .login-details {
+      .profile-pic {
+        margin: 5%;
+      }
+      .login-checkbox {
+        margin-left: 1.5rem;
+      }
+      .styling-label {
+        margin-left: 2.8rem;
+      }
+      margin-top: 10%;
+      width: 35%;
+      min-width: 15rem;
+      .lost-password-link {
+        margin-right: 8%;
+      }
+    }
+  }

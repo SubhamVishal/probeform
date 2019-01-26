@@ -1,0 +1,20 @@
+<form name="loginFormName" id="loginFormId" action="#" method="POST" novalidate>
+    <h1 class="page-heading">LOGIN</h1>
+    <img class="profile-pic" src="app/assests/images/profile-pic.jpg" alt="profile-pic">
+
+    <label class="is-label-hidden" for="loginFullName">fullName</label>
+    <input class="login-text-field" type="text" name="loginfullName" id="loginFullName" placeholder="User Name" pattern="^[a-zA-Z ]*$"
+        minlength="3" maxlength="30" errorMsg="Enter Username Correctly" required/>
+    <p id="loginfullName" class="login-form-style"></p>
+
+    <label class="is-label-hidden" for="loginPassword">password</label>
+    <input class="login-password-field" type="password" name="loginpassword" id="loginPassword" placeholder="Password" required>
+    <p id="loginpassword" class="login-form-style"></p>
+
+    <button type="submit" class="button button-primary login-button" id="submitLogin">LOGIN</button>
+    <input class="login-checkbox" type="checkbox" id="rememberMe" data-novalidate="true">
+
+    <label class="styling-label" for="rememberMe ">Remember Me</label>
+    <a class="l-float-right lost-password-link" id="lostPassword" href="#">Lost your password?</a>
+    <p id="loginFormName" class="login-form-style"></p>
+</form>

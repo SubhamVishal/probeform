@@ -1,0 +1,48 @@
+<section class="signup-details-wrapper">
+        <div class="signup-details">
+            <form id="signupFormId" name="signupFormName" method="POST" autocomplete="off" action="#" novalidate>
+                <h1 class="page-heading">REGISTER</h1>
+    
+                <label class="is-label-hidden" for="signupFullName">full-name</label>
+                <input class="custom-text" type="text" id="signupFullName" name="signupfullName" placeholder="Full Name" pattern="^[a-zA-Z ]*$"
+                    minlength="3" maxlength="30" errorMsg="Enter Name Correctly" required/>
+                <p id="signupfullName" class="signupform-style"></p>
+    
+                <label class="is-label-hidden" for="signupOracleId">oracleId</label>
+                <input class="custom-text" type="text" id="signupOracleId" name="signuporacleId" placeholder="Oracle ID" pattern="[0-9]+$"
+                    minlength="6" maxlength="6" errorMsg="Enter oracleId Correctly" required/>
+                <p id="signuporacleId" class="signupform-style"></p>
+    
+                <label class="is-label-hidden" for="signupEmail">email</label>
+                <input class="custom-text" type="text" id="signupEmail" name="signupemail" placeholder="Email" pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$"
+                    errorMsg="Enter Email Correctly" />
+                <p id="signupemail" class="signupform-style"></p>
+    
+                <label class="is-label-hidden" for="signupPhone">phone</label>
+                <input class="custom-text" type="text" name="signupphone" id="signupPhone" placeholder="Phone" pattern="[0-9]+$" minlength="10"
+                    maxlength="10" errorMsg="Enter PhoneNo. Correctly" required/>
+                <p id="signupphone" class="signupform-style"></p>
+    
+                <label class="is-label-hidden" for="signupRole">role</label>
+                <input class="custom-text" type="text" id="signupRole" name="signuprole" placeholder="Role" data-novalidate="true">
+    
+                <label class="is-label-hidden" for="signupLocation">location</label>
+                <input class="custom-text" type="text" name="signuplocation" id="signupLocation" placeholder="Location" pattern="^[a-z0-9 ]+$/i"
+                required/>
+                <p id="signuplocation" class="signupform-style"></p>
+    
+                <label class="is-label-hidden" for="signupPassword">password</label>
+                <input class="custom-password" type="password" name="signuppassword" id="signupPassword" placeholder="Password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&]{8,}"
+                    errorMsg="Enter Password Correctly" required/>
+                <p id="signuppassword" class="signupform-style"></p>
+    
+                <label class="is-label-hidden" for="signupConfirmPassword">confirm-password</label>
+                <input class="custom-password" type="password" name="signupconfirmPassword" id="signupConfirmPassword" placeholder="Confirm Password"
+                required/>
+                <p id="signupconfirmPassword" class="signupform-style"></p>
+    
+                <button type="submit" class="button button-primary custom-signup-button" id="signupButton">SIGN UP</button>
+                <p id="signupFormName" class="signupform-style"></p>
+            </form>
+        </div>
+    </section>

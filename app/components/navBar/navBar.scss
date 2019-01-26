@@ -1,0 +1,42 @@
+@import 'app/styles/partials/_utils';
+.nav-wrapper {
+    background-color: $color_mine_shaft;
+    display: none;
+  }
+  
+  .header-adjust {
+    position: absolute;
+    margin-left: 55%;
+  }
+  
+  .nav-adjust {
+    margin: 0 0 0 10%;
+    padding: 0;
+  }
+  
+  .nav-wrapper {
+    .nav-primary {
+      padding: 0.2rem;
+    }
+    .nav-link {
+      font-size: 0.7rem;
+      padding: 2% 2% 0.5%;
+      text-decoration: none;
+    }
+  }
+  
+  .nav-container {
+    padding: 2px;
+  }
+  
+  a {
+    &:hover, &:active {
+      border-bottom: 1px solid $color_red;
+    }
+  }
+  
+  @media screen and (min-width: 640px) {
+    .nav-wrapper {
+      display: block;
+    }
+  }

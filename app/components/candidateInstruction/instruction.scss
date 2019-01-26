@@ -1,0 +1,43 @@
+@import 'app/styles/partials/_utils';
+.instruction {
+    .container {
+      height: 25rem;
+      margin-top: 10%;
+    }
+    .heading {
+        background-color: $color_shark;
+        padding: 0.6rem 1.2rem;
+        color: $color_mercury;
+    }
+    .list li {
+      list-style-type: disc;
+    }
+    ul {
+      margin: 3% auto;
+      padding-left: 5%;
+    }
+    .begin-button {
+      width: 12rem;
+      margin-left: 3rem;
+      padding-bottom: 0.625rem;
+    }
+    .content {
+      margin-left: 1.25rem;
+    }
+  }
+  
+  @media screen and (min-width: 48.0625rem) {
+    .instruction {
+      .container {
+        height: 20rem;
+        padding-bottom: 0.625rem;
+        width: 70%;
+        margin: 12rem;
+        vertical-align: center;
+      }
+      .begin-button {
+        width: 12rem;
+        margin-left: 35%;
+      }
+    }
+  }

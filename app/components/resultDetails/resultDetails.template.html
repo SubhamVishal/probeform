@@ -1,0 +1,51 @@
+<div class="result-wrapper bg-container">
+    <p class="wrapper-text color-white">RESULT DETAIL
+        <img src="app/assests/images/cross-button.png" alt="cross-button" class="cross-button" id="crossResult" />
+    </p>
+    <div class="result-details">
+        <p class="color-white js-name"></p>
+        <ul class="color-white bg-container result-information">
+            <li class="result-information-header">
+                <span class="result-information-heading ">RESULT</span>
+                <span class="result-total-score" id="total-score"></span>
+            </li>
+            <li class="result-information-row">
+                <span>Total Questions:</span>
+                <span class="result-score">5</span>
+            </li>
+            <li class="result-information-row">
+                <span>Attempted Questions:</span>
+                <span class="result-score" id="attempted"></span>
+                </span>
+            </li>
+            <li class="result-information-row">
+                <div>
+                    <img src="app/assests/images/green-check.png" alt="icon1" />
+                    <span class="m-button-icon" id="final-score"></span>
+
+                    <img src="app/assests/images/red-cross.png " alt="icon2" />
+                    <span id="incorrect-score"></span>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="question-table">
+        <p class="question-table-heading color-white">Questions</p>
+        <table class="question-list" cellspacing="0" cellpadding="0" id="modalbody">
+        </table>
+    </div>
+</div>
+<template id="to-be-appended">
+    <tr>
+        <td class="js-serialno">1</td>
+        <td class="js-ques">What is the full form of HTML?</td>
+        <td>
+            <div class="input-group">
+                <input id="custom-check-first" name="custom-check-first" type="checkbox" checked="checked" class="js-inputcheck" />
+                <label for="custom-check-first" class="checkbox-label">
+                    <span class="is-label-hidden">checkbox</span>
+                </label>
+            </div>
+        </td>
+    </tr>
+</template>

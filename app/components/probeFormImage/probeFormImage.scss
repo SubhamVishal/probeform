@@ -1,0 +1,18 @@
+@import 'app/styles/partials/_utils';
+.logo-with-text {
+    display: none;
+  }
+  
+  @media screen and (min-width: 640px) {
+    .logo {
+      display: inline;
+    }
+    .logo-with-text {
+      display: block;
+      margin-left: 100px;
+    }
+    .probe-form-content {
+      color: $color_white;
+      font-size: 3rem;
+    }
+  }

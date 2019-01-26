@@ -1,0 +1,25 @@
+<div class="show-result-input">
+    <div class="career-stage is-inline-block">
+        <div class="input-group is-inline-block">
+            <label for="fullName" class="is-label-hidden">Candidate Name</label>
+            <input type="text" name="fullName" placeholder=" Candidate Name" pattern="^[a-zA-Z ]*$" minlength="8" maxlength="30" id="js-search"
+            />
+        </div>
+        <div class="dropdown-primary is-inline-block">
+            <select class="dropdown-primary is-inline-block dropdown-button" id="stage" required>
+                <option value="">Career Stage</option>
+                <option value="associate">Associate</option>
+                <option value="srassociate">Sr. Associate</option>
+                <option value="manager">Manager</option>
+                <option value="projectlead">Project Lead</option>
+            </select>
+        </div>
+    </div>
+    <div class="date is-inline-block">
+        <p class="color-grey is-inline-block">Date of Interview: </p>
+    </div>
+    <input type="date" class="dropdown-primary dropdown-button date-field" name="dateinterview" id="date" required>
+
+    <button class="button-primary button is-inline-block" id="submit">Show Result</button>
+</div>
+</div>

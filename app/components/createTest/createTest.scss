@@ -1,0 +1,52 @@
+@import 'app/styles/partials/_utils';
+.create-test {
+    margin: auto 2%;
+    .dropdown-primary, .button {
+      width: 45%;
+      margin: 2%;
+    }
+    .text-input {
+      width: 90%;
+    }
+    h1 {
+      margin-bottom: 3rem;
+    }
+    .font-small {
+      font-size: 0.8rem;
+    }
+    .desktop-short-name {
+      display: none;
+    }
+    .sub-heading {
+      background-color: $color_shark;
+      padding: 0.6rem 1.2rem;
+    }
+  }
+  
+  .createTest-style {
+    color: $color_white;
+  }
+  
+  @media screen and (min-width: 640px) {
+    .create-test {
+      max-width: 50rem;
+      .dropdown-primary, .button {
+        min-width: 8.75rem;
+        width: 15%;
+        margin: 1.5rem 1rem;
+      }
+      input[type=text] {
+        min-width: 17rem;
+        width: 40%;
+      }
+      .mobile-short-name {
+        display: none;
+      }
+      .desktop-short-name {
+        display: block;
+      }
+      .desktop-description .text-input {
+        width: 90%;
+      }
+    }
+  }

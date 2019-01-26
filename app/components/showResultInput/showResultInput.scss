@@ -1,0 +1,53 @@
+@import 'app/styles/partials/_utils';
+.show-result-input {
+    .career-stage, .date {
+      margin-bottom: 0.8rem;
+      display: block;
+    }
+    input[type=text] {
+      margin: 0 0 0.5rem;
+      width: 90%;
+    }
+    .button {
+      display: block;
+      margin: 1rem 0 2rem;
+    }
+    .date .dropdown-primary {
+      display: inline-block;
+      margin-top: 1rem;
+    }
+    .dropdown-button {
+      width: auto;
+      background: transparent;
+      color: $color_mountain_mist;
+      border: 1px solid $color_cape_cod;
+      padding-right: 2rem;
+    }
+    .dropdown-content {
+      a {
+        padding: 0.4rem;
+      }
+      max-height: 22rem;
+      overflow: auto;
+    }
+  }
+  
+  @media screen and (min-width: 640px) {
+    .show-result-input {
+      .is-inline-block {
+        display: inline-block;
+      }
+      .career-stage {
+        display: block;
+      }
+      .button {
+        margin: 1rem;
+      }
+      .year-dropdown {
+        margin-left: 2rem;
+      }
+      .date {
+        margin-bottom: 2rem;
+      }
+    }
+  }

@@ -1,0 +1,35 @@
+@import 'app/styles/partials/_utils';
+.signup-details-wrapper {
+    .signup-details {
+      margin-top: 2rem;
+    }
+    .custom-signup-button {
+      width: 84%;
+      margin: 5%;
+      display: block;
+      text-align: center;
+    }
+    .custom-text, .custom-password {
+      width: 90%;
+      margin-bottom: 1.25rem;
+    }
+    .page-heading {
+      margin-left: 3%;
+    }
+  }
+  
+  .signupform-style {
+    color: $color_guardsman_red;
+    margin-left: 5%;
+  }
+  
+  @media screen and (min-width: 640px) {
+    .signup-details-wrapper .signup-details {
+      margin-top: 6.25rem;
+    }
+    .signup-form {
+      width: 40%;
+      display: inline-block;
+      margin-right: 5%;
+    }
+  }

@@ -1,0 +1,77 @@
+@import 'app/styles/partials/_utils';
+.dashboard-wrapper {
+    .heading {
+      display: none;
+    }
+    .link-block {
+      width: 90%;
+      padding-top: 0.875rem;
+      border-radius: 15px;
+      margin: 0.75rem 0 0 1.25rem;
+      font-size: 1rem;
+    }
+    .link-wrapper {
+      height: 400px;
+    }
+    .seperator {
+      display: block;
+      margin: 14px 14px;
+      margin-left: 0;
+    }
+    .link-block:hover {
+        background-color: $color_red;
+    }
+    .first-block, .link {
+      display: block;
+    }
+    .content {
+      display: inline-block;
+      line-height: 1.875rem;
+      margin-left: 0.75rem;
+    }
+  }
+  
+  @media screen and (min-width: 640px) {
+    .dashboard-wrapper {
+      .heading {
+        text-align: center;
+        display: block;
+      }
+      .link-block {
+        display: inline-block;
+        width: 30%;
+        height: 12.5rem;
+        border: 2px solid $color_mountain_mist;
+        padding: 0.625rem;
+        font-size: 1.125rem;
+        text-align: center;
+      }
+      .second-block {
+        font-size: 0.875rem;
+      }
+      .link-wrapper {
+        margin-top: 1.25rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      .seperator {
+        margin-left: 43%;
+      }
+      .content {
+        display: block;
+        padding-top: 1.25rem;
+        margin-left: 0;
+      }
+      .icon {
+        height: 3.4375rem;
+      }
+      .show-results-wrapper {
+        margin: 4% 6%;
+      }
+      .link {
+        padding: 1.0625rem;
+        height: 10.9375rem;
+      }
+    }
+  }

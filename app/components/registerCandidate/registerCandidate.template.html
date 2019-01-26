@@ -1,0 +1,40 @@
+<div class="register-candidate">
+    <h1> REGISTER CANDIDATE </h1>
+    <form class="bg-container" name="registerCandidateName" id="registerCandidateId" method="POST" action="#" autocomplete="off" novalidate>
+        <p class="sub-heading color-white"> NEW CANDIDATE </p>
+        <div class="input-group">
+            <label for="registerCandidateFullName" class="is-label-hidden">Full Name</label>
+            <input type="text" class="text-input" name="registerCandidatefullName" id="registerCandidateFullName" placeholder="Name"
+                pattern="^[a-zA-Z ]*$" minlength="3" maxlength="30" errorMsg="Enter Name Correctly" required/>
+            <p id="registerCandidatefullName" class="registerCandidate-style"></p>
+        </div>
+
+        <div class="input-group">
+            <label for="registerCandidatePhoneNumber" class="is-label-hidden">Phone Number</label>
+            <input type="text" class="text-input" name="registerCandidatephoneNumber" id="registerCandidatePhoneNumber" placeholder="Phone Number"
+                pattern="^[0-9]+$" minlength="10" maxlength="10" errorMsg="Enter PhoneNo. Correctly" required/>
+            <p id="registerCandidatephoneNumber" class="registerCandidate-style"></p>
+        </div>
+
+        <div class="input-group">
+            <label for="registerCandidateEmail" class="is-label-hidden">Email</label>
+            <input type="email" class="text-input" name="registerCandidateemail" id="registerCandidateEmail" placeholder="Email" pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$"
+                errorMsg="Enter Email Correctly" />
+            <p id="registerCandidateemail" class="registerCandidate-style"></p>
+        </div>
+
+        <div class="dropdown-primary">
+            <select class="dropdown-primary dropdown-button" required>
+                <option value="">Career Stage</option>
+                <option value="associate">Associate</option>
+                <option value="srassociate">Sr. Associate</option>
+                <option value="manager">Manager</option>
+                <option value="projectlead">Project Lead</option>
+            </select>
+        </div>
+        
+        <button type="submit" class="button button-primary" id="registerCandidateButton">Register</button>
+        <p id="registerCandidateName" class="registerCandidate-style"></p>
+
+    </form>
+</div>

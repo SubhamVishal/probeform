@@ -1,0 +1,198 @@
+@import '_reset';
+@import '_utils';
+@import '_pop-up';
+
+@font-face {
+    font-family: "miller-display-roman", "Times New Roman", Times, serif;
+    src: url("../../assests/fonts/miller-display-roman.otf") format("otf"),
+    url("../../assests/fonts/miller-display-roman.ttf") format("ttf"),
+    url("../../assests/fonts/miller-display-roman.woff") format("woff");
+}
+
+body {
+    font-family: "miller-display-roman";
+    font-size: 16px;
+    background-image: url("../../assests/images/background.jpg");
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.main-container {
+	box-sizing: border-box;
+	margin: auto;
+	padding: 1rem;
+}
+h1 {
+	font-size: 1.2rem;
+	color: $color_mercury;
+	font-weight: 400;
+}
+
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
+.width-max {
+	width: 100%;
+}
+.font-l {
+	font-size: 3rem;
+}
+.flex-align-items {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.input-group {
+	display: block;
+	margin-bottom: 0.5rem;
+}
+.is-label-hidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=number] {
+	@extend %extend_input;
+}
+
+.button-primary {
+	@extend %extend_button;
+	background-color: $color_guardsman_red;
+	border-color: transparent;
+	&:hover {
+		background-color: transparent;
+		color: $color_guardsman_red;
+		border-color: $color_guardsman_red;
+		cursor: pointer;
+	}
+}
+
+.button-secondary {
+	@extend %extend_button;
+	background-color: $color_chicago;
+	border-color: $color_chicago;
+	&:hover {
+		cursor: pointer;
+	}
+	&:disabled {
+		background-color: transparent;
+		color: $color_mountain_mist;
+	}
+}
+
+.pagination {
+	display: inline-block;
+	a {
+		color: $color_mercury;
+		padding: 0.3rem 0.7rem;
+		font-size: 0.75rem;
+		&:hover {
+			color: $color_guardsman_red;
+			text-decoration: underline;
+		}
+	}
+}
+.dropdown-button {
+	color: $color_mercury;
+	width: 100%;
+	padding: 0.5rem;
+	font-size: 1rem;
+	border: none;
+	text-align: left;
+	background-color: $color_chicago;
+	@include border-radius(3px);
+}
+.dropdown-primary {
+	position: relative;
+	display: inline-block;
+	&:hover .dropdown-content {
+		display: block;
+	}
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: $color_mountain_mist;
+	width: 100%;
+	z-index: 1;
+	a {
+		color: $color_mercury;
+		padding: 0.75rem 1rem;
+		display: block;
+		&:hover {
+			background-color: $color_guardsman_red;
+		}
+	}
+}
+input[type=checkbox] {
+	opacity: 0;
+	position: absolute;
+	cursor: pointer;
+	+ .checkbox-label:before {
+		@extend %extend_radio;
+	}
+	&:checked + .checkbox-label:before {
+		background: $color_white;
+		box-shadow: inset 0 0 0 2px $color_black;
+	}
+}
+input[type="radio"] {
+	opacity: 0;
+	position: absolute;
+}
+.checkbox-label, .radio-label {
+	cursor: pointer;
+}
+input[type=radio] {
+	cursor: pointer;
+	+ .radio-label:before {
+		@extend %extend_radio;
+		@include border-radius(50%);
+	}
+	&:checked + .radio-label:before {
+		background: $color_black;
+		box-shadow: inset 0 0 0 2px $color_white;
+	}
+}
+
+.bg-container {
+	background-color: $color_emperor;
+}
+.color-white {
+	color: $color_mercury;
+}
+.color-grey {
+	color: $color_mountain_mist;
+}
+.color-darkgrey {
+	color: $color_cape_cod;
+}
+.font-weight-bold {
+	font-weight: 700;
+}
+input:focus{
+	outline: none;
+}
+@media screen and(min-width: $break_mobile_landscape) {
+	.main-container {
+		width: 90%;
+	}
+	h1 {
+		font-size: 2rem;
+	}
+}

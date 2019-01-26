@@ -1,0 +1,29 @@
+{
+  "name": "probe-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "eslint-fix":"eslint src/ --fix",
+    "eslint":"eslint src/",
+    "server": "http-server -o",
+    "css": "node-sass src/ -o src/ --output-style compressed",
+    "minifyjs":"uglifyjs-folder src/ -e",
+    "jsdoc":"jsdoc / -r",
+    "css-lint":" csslint --format=text src/ > csslintlog.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://psida1@del.tools.publicis.sapient.com/bitbucket/scm/accjan/probe-form.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-minify": "^2.4.2",
+    "npm-sass": "^2.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "jsdoc": "^3.5.5"
+  }
+}

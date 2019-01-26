@@ -1,0 +1,36 @@
+@import 'app/styles/partials/_utils';
+.thankyou-page {
+    text-align: center;
+    margin: auto;
+    margin-top: 10rem;
+    padding: 5%;
+    width: 80%;
+    background-color: $color_emperor;
+    .thankyou-greeting {
+      padding: 0.3rem;
+      color: $color_white;
+      font-size: 1.4rem;
+    }
+    .border-line {
+      padding: 0.6rem;
+      border-bottom: 2px solid $color_red;
+    }
+    .content {
+      font-size: 0.8rem;
+    }
+  }
+  
+  @media screen and (min-width: 640px) {
+    .thankyou-page {
+      min-width: 18rem;
+      width: 35%;
+      padding: 5%;
+      margin-top: 15rem;
+      .thankyou-greeting {
+        font-size: 1.8rem;
+      }
+      .content {
+        font-size: 1rem;
+      }
+    }
+  }

@@ -1,0 +1,24 @@
+<section class="add-question">
+    <form class="input-detail" method="POST" action="#" autocomplete="off">
+        <p class="wrapper-heading">ADD QUESTIONS
+            <img id="crossAdd" class="cross-button" src="app/assests/images/cross-button.png" alt="cross-button" />
+        </p>
+        <p class="content color-white">Your test needs atleast 20 questions before others can take it.</p>
+        <p class="content color-white"> 0 Questions of 20 added. </p>
+        <label class="is-label-hidden" for="questions">Question</label>
+        <input class="question-input comment-input" type="text" name="questions" id="questions" placeholder="Questions" />
+        <label class="is-label-hidden" for="correctAnswer">correct-answer</label>
+        <input class="question-input" type="text" name="correctAnswer" id="correctAnswer" placeholder="Correct Answer" />
+        <label class="is-label-hidden" for="firstWrongAnswer">wrong-answer</label>
+        <input class="question-input" type="text" name="firstWrongAnswer" id="firstWrongAnswer" placeholder="Wrong Answer" />
+        <label class="is-label-hidden" for="secondWrongAnswer">wrong-answer1</label>
+        <input class="question-input" type="text" name="secondWrongAnswer" id="secondWrongAnswer" placeholder="Wrong Answer" />
+        <label class="is-label-hidden" for="thirdWrongAnswer">wrong-answer2</label>
+        <input class="question-input" type="text" name="thirdWrongAnswer" id="thirdWrongAnswer" placeholder="Wrong Answer" />
+        <label class="is-label-hidden" for="comments">comments</label>
+        <input class="question-input comment-input" type="text" name="comments" id="comments" placeholder="Comments" />
+        <p class="content color-grey">Description or link to the source of this question(Public)</p>
+        <button id="add" class="button button-primary button-custom">Add</button>
+        <button id="cancelAdd" class="button button-primary button-custom">Cancel</button>
+    </form>
+</section>

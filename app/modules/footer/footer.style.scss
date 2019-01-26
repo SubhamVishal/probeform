@@ -1,0 +1,14 @@
+@import 'app/styles/partials/_utils';
+.footer-container {
+  font-size: 0.5rem;
+  color: $color_mercury;
+  width: 100%;
+  text-align: center;
+  border-bottom: 4px solid red;
+}
+
+@media screen and (min-width: 640px) {
+  .footer-container {
+    text-align: left;
+  }
+}

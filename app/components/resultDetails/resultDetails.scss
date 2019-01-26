@@ -1,0 +1,92 @@
+@import 'app/styles/partials/_utils';
+.result-wrapper {
+    .result-information-header, .result-information-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.50rem;
+    }
+    margin: 20% 2.5%;
+    .wrapper-text {
+      background-color: $color_black;
+      display: flex;
+      margin: 0;
+      padding: 1rem 1rem 1rem 1.5rem;
+    }
+    .cross-button {
+      margin-left: auto;
+    }
+    .result-information {
+      padding-left: 0;
+    }
+    .result-information-header {
+      margin-bottom: 1rem;
+      background-color: $color_black;
+    }
+    .result-details {
+      padding: 0.625rem;
+      margin: 0.75rem;
+      color: $color_white;
+      border-bottom: 1px solid $color_black;
+      border-collapse: collapse;
+    }
+    .button-icon {
+      padding-right: 2.5rem;
+    }
+    .result-information-row {
+      border: 1px solid $color_mountain_mist;
+    }
+    .result-information-heading, .result-total-score {
+      font-size: 1.25rem;
+    }
+    .question-list {
+      width: 100%;
+      padding: 1rem;
+      background-color: $color_emperor;
+      margin: auto;
+      color: $color_white;
+      tr {
+        padding: 0.7rem;
+        td {
+          border-bottom: 1px solid $color_mountain_mist;
+        }
+      }
+      td {
+        padding: 0.7rem;
+      }
+    }
+    .question-table-heading {
+      font-size: 0.9375rem;
+      padding: 0.5rem;
+      margin-left: 10px;
+    }
+  }
+  
+  @media screen and (min-width: 640px) {
+    .result-wrapper {
+      margin: 0;
+      .result-details {
+        width: 40%;
+        border-bottom: none;
+        float: left;
+        p {
+          font-size: 1.25rem;
+        }
+      }
+      .result-information-header {
+        margin-bottom: 0;
+      }
+      .question-table-heading {
+        font-size: 1.25rem;
+        display: inline-block;
+      }
+      .question-table {
+        display: inline-block;
+        border-left: 1px solid $color_black;
+        width: 40%;
+      }
+      .question-list tr {
+        width: 100%;
+      }
+    }
+  }

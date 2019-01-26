@@ -1,0 +1,49 @@
+$color_mercury: #e6e6e6;
+$color_shark: #262626;
+$color_mountain_mist: #999;
+$color_guardsman_red: #cc0000;
+$color_chicago: #595959;
+$color_option: #545454;
+$color_alto: #ddd;
+$color_white: #fff;
+$color_black: #000;
+$color_emperor: #4d4d4d;
+$color_cape_cod: #404040;
+$color_log_cabin:#202020;
+$color_gray:#808080;
+$color_green:#00ff00;
+$color_red:#ff0000;
+$color_iron:#d6d6d6;
+$color_mine_shaft: #333333;
+
+$break_mobile_landscape: 640px;
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+%extend_input {
+	color: $color_mercury;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid $color_mountain_mist;
+	padding: 0.3rem;
+	margin: 1rem;
+}
+
+%extend_radio {
+	content: '';
+	border: 1px solid $color_alto;
+	display: inline-block;
+	padding: 0.3rem;
+}
+
+%extend_button {
+	border: 1px solid transparent;
+	@include border-radius(3px);
+	color: $color_mercury;
+	padding: 0.6rem;
+}

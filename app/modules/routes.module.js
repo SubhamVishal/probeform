@@ -1,0 +1,7 @@
+require(['app/services/router', 'app/modules/headerPrimary/headerPrimary.route', 'app/modules/headerSecondary/headerSecondary.route', 'app/modules/navBarPrimary/navBarPrimary.route', 'app/modules/navBarSecondary/navBarSecondary.route', 'app/modules/loginForm/loginForm.route', 'app/modules/signupForm/signupForm.route', 'app/modules/InterviewerDashboard/InterviewerDashboard.route', 'app/modules/hrDashboard/hrDashboard.route', 'app/modules/createTest/createTest.route', 'app/modules/modifyTest/modifyTest.route', 'app/modules/showResults/showResults.route', 'app/modules/registerCandidate/registerCandidate.route', 'app/modules/candidateListing/candidateListing.route','app/modules/candidateScreen/candidateScreen.route'], function (routeService, headerPrimary, headerSecondary, navBarPrimary, navBarSecondary, loginForm, signupForm, InterviewerDashboard, hrDashboard, createTest, modifyTest, showResults, registerCandidate, candidateListing,candidateScreen) {
+    routeService.registerRoutes([headerPrimary, headerSecondary, navBarPrimary, navBarSecondary, loginForm, signupForm, InterviewerDashboard, hrDashboard, createTest, modifyTest, showResults, registerCandidate, candidateListing, candidateScreen]);
+    routeService.router();
+    routeService.headerLoader();
+    routeService.navBarLoader();
+    routeService.footerLoader();
+});

@@ -1,0 +1,120 @@
+[
+	{
+		"name": "john",
+		"ID": 12320,
+		"email": "John@sapient.com",
+		"phno": 123456789,
+		"role": "hr",
+        "location": "New York",
+        "password": "john"
+    },
+    {
+		"name": "smith",
+		"ID": 12321,
+		"email": "smith@sapient.com",
+		"phno": 789546123,
+		"role": "interviewer",
+		"location": "New Jersey",
+		"password": "smith"
+    },
+    {
+		"name": "will",
+		"ID": 12322,
+		"email": "will@sapient.com",
+		"phno": 456879512,
+		"role": "hr",
+		"location": "Mexico",
+		"password": "will"
+    },
+    {
+		"name": "joey",
+		"ID": 12323,
+		"email": "joey@sapient.com",
+		"phno": 787856787,
+		"role": "interviewer",
+		"location": "Washington",
+		"password": "joey"
+    },
+    {
+		"name": "alice",
+		"ID": 12324,
+		"email": "alice@sapient.com",
+		"phno": 879778944,
+		"role": "hr",
+		"location": "Virginia",
+		"password": "alice"
+    },
+    {
+		"name": "bob",
+		"ID": 12325,
+		"email": "bob@sapient.com",
+		"phno": 564567897,
+		"role": "interviewer",
+		"location": "Carolina",
+		"password": "bob"
+    },
+    {
+		"name": "chand",
+		"ID": 12326,
+		"email": "chand@sapient.com",
+		"phno": 456456456,
+		"role": "hr",
+		"location": "Oregon",
+		"password": "chand"
+    },
+    {
+		"name": "william",
+		"ID": 12327,
+		"email": "william@sapient.com",
+		"phno": 789456147,
+		"role": "interviewer",
+		"location": "New Jersey",
+		"password": "william"
+    },
+    {
+		"name": "tony",
+		"ID": 12328,
+		"email": "tony@sapient.com",
+		"phno": 456456415,
+		"role": "hr",
+		"location": "Massachusetts",
+		"password": "tony"
+    },
+    {
+		"name": "shaun",
+		"ID": 12329,
+		"email": "shaun@sapient.com",
+		"phno": 123456741,
+		"role": "interviewer",
+		"location": "Hawaii",
+		"password": "shaun"
+	},
+	{
+		"name": "victoria",
+		"ID": 12330,
+		"email": "victoria@sapient.com",
+		"phno": 123112311,
+		"role": "hr",
+		"location": "California",
+		"password": "victoria"
+	},
+	{
+		"name": "swift",
+		"ID": 12331,
+		"email": "swift@sapient.com",
+		"phno": 123445456,
+		"role": "interviewer",
+		"location": "Georgia",
+		"password": "swift"
+	},
+	{
+		"name": "taylor",
+		"ID": 12332,
+		"email": "taylor@sapient.com",
+		"phno": 788998756,
+		"role": "hr",
+		"location": "Florida",
+		"password": "taylor"
+	}
+
+]
